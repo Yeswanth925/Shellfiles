@@ -1,7 +1,7 @@
 #!/bin/bash
 
-A=$yeswanth
-B=$Anil
+A=$1
+B=$2
 
 
 echo "$A: Hi $B, How are you."
