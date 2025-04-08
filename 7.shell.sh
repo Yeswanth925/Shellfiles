@@ -3,5 +3,5 @@
 
 
 read USERNAME
-read PASSWORD
-echo "username is $USERNAME AND password is $PASSWORD"
+
+echo "username is $USERNAME "
