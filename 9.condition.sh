@@ -2,24 +2,13 @@
 
 
 
-ID=$(id -u)
+ID=$(id-u)
+
 
 if [ $ID -ne 0 ]
 then
-    echo "ERROR:please proceed with root user"
-    exit 1
-else 
-    echo "you are  root user"
-fi
-
-sudo apt install mysql-server
-
-
-if [ $? -ne 0 ] 
-then 
-    echo "installation failed"
-    exit 1
+    echo " ERROR: Please proceed with root user"
+    EXIT 1
 else
-    echo "Installation sucess"
+    echo " User are root user "
 fi
-
