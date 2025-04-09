@@ -12,7 +12,8 @@ else
     echo "you are  root user"
 fi
 
-apt install mysql -y
+sudo apt install mysql-server
+
 
 if [ $? -ne 0 ] 
 then 
