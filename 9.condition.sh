@@ -12,7 +12,7 @@ else
     echo "you are  root user"
 fi
 
-yum install mysql -y
+apt install mysql -y
 
 if [$? -ne 0 ] 
 then 
@@ -21,3 +21,4 @@ then
 else
     echo "Installation sucess"
 fi
+
