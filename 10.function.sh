@@ -26,3 +26,6 @@ VALIDATE
 
 sudo apt install git -y
 VALIDATE
+
+sudo apt install python3 -y
+VALIDATE
